@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+
+}
+
+.footer {
+  margin-top: auto;
+}
+.hiden{
+  display:none;
+}
+

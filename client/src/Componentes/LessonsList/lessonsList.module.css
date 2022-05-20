@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+   align-items: left;
+    width: 100%;
+    height: 1100px;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px ;
+    margin: 5px;
+    border: solid var(--color4) 6px;
+}
+
+.container .classes {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    height: 50px;
+    margin-top: 10px;
+ 
+}
+
+.container .classes input {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    align-self: center;
+}
+.container .classes p {
+    align-self: center;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    
+    
+}
+
+.container .classes button {
+
+    color: rgb(0, 0, 0);
+    background: red;
+ 
+    font-family:'Montserrat', sans-serif ;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid var(--color4) 1px;
+    width: 30px;
+    height:auto;
+    padding: 2px;  
+}
+
+.container .classes button:hover {
+    background: rgb(122, 3, 122);
+    color: white;
+    cursor: pointer;
+}
+
+.container .classes p:hover {
+    cursor: pointer;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.container h3{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.container h5{
+   font-size: 16px;
+   margin-left: 10px;
+   margin-top: 2px;
+   margin-bottom: 3px;
+   
+}
+.container h4{
+    font-size: 18px;
+    color: rgb(15, 53, 114);
+    cursor: pointer;
+    margin: 0px;
+    
+}
+.container h4:hover{
+    text-decoration: underline;
+    color: rgb(9, 40, 89);
+}
+
+.buttonEditar {
+
+    color: rgb(255, 255, 255);
+    background: #ff9b00;
+ 
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid var(--color4) 2px;
+    width: 150px;
+    height: 35px;
+   
+
+ 
+    
+}
+
+.buttonEditar:hover {
+    background: rgb(122, 3, 122);
+    color: white;
+    cursor: pointer;
+}
+
+
+.containerTitle {
+
+     background-color: rgba(0, 0, 0, 0.081);
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 45px;
+}
+
+.classes .deshabilitado {
+
+    color: rgba(0, 0, 0, 0.266);
+     
+}
+
+.classes .habilitado {
+
+    color: rgb(0, 0, 0);
+     
+}
+/* .classes {
+
+     display: flex;
+     flex-direction: row;
+     
+} */

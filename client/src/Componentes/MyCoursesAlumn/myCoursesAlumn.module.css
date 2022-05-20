@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    border: solid var(--color4) 8px;
+}
+.title h2 {
+    color: black;
+    font-size: 30px;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linkDetail {
+    text-decoration: none;
+    color: #000;
+  }

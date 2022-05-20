@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 800px;
+  /* height: 400px; */
+  background-color: white;
+  margin: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  border: solid var(--color4) 8px;
+}
+
+.title h2 {
+  color: black;
+  font-size: 30px;
+}
+.cursesInstructor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttonEditar {
+
+  color: rgb(255, 255, 255);
+  background: #ff9b00;
+  
+  font-family:'Montserrat', sans-serif ;
+  font-size: 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: solid var(--color4) 2px;
+  width: 150px;
+  height:30px;
+  margin-bottom: 100px;
+
+
+
+  
+}
+
+.buttonEditar:hover {
+  background: rgb(122, 3, 122);
+  color: white;
+  cursor: pointer;
+}

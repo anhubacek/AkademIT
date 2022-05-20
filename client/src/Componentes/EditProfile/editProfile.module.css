@@ -1,0 +1,244 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1200px;
+  width: auto;
+  background: rgb(11, 82, 91);
+  background: linear-gradient(
+    260deg,
+    rgba(11, 82, 91, 1) 0%,
+    rgba(27, 58, 75, 1) 30%,
+    rgba(77, 25, 77, 1) 100%
+  );
+}
+
+.title h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.save {
+  width: fit-content;
+  height: fit-content;
+
+  margin-left: 30px;
+  margin-right: 30px;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff9b00;
+  color: white;
+  /* border: solid black 0.5px; */
+  /* text-align: center; */
+  align-self: center;
+  margin-top: 30px;
+}
+
+.save:hover {
+  background-color: rgb(179, 7, 205);
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.editPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  color: black;
+
+  border-radius: 30px;
+  padding: 20px;
+  border: solid var(--color4) 8px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  /* border: solid var(--color3) 2px; */
+  padding: 10px;
+  /* border-radius: 30px; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  /* border: solid var(--color3) 2px; */
+  padding: 10px;
+  /* border-radius: 30px; */
+}
+
+.linkContraseña {
+  text-decoration: none;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.linkContraseña:hover {
+  background-color: rgb(111, 2, 111);
+  color: white;
+}
+
+.container input {
+  border-radius: 10px;
+  height: 35px;
+  width: 350px;
+  font-size: 18px;
+  margin: 10px;
+
+  font-family: "Montserrat", sans-serif;
+}
+.container label {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  color: black;
+  font-size: 18px;
+}
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.editPanel p {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  background-color: rgb(228, 223, 223);
+  width: 350px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.avatares img {
+  width: 100px;
+}
+
+.avatares {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.avatares input {
+  width: 10px;
+  margin: 0px;
+}
+
+.avatares .conteineravatar {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatares .avatar {
+  margin: 20px;
+}
+
+.containerSelect .tituloseleccionar {
+  margin-bottom: 10px;
+}
+
+.containerSelect .titulo {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerSelect .decorando {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: white;
+  border: black solid 1.6px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 4rem;
+  height: 30px;
+}
+
+.decorando .p {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: black solid 2px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 1rem;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.botonx {
+  margin-left: auto;
+  border-radius: 5px;
+  border: rgba(77, 25, 77, 1) solid 1.5px;
+}
+
+.botonx:hover {
+  background-color: rgb(120, 3, 138);
+  cursor: pointer;
+}
+
+.containerSelect .titulo {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .cbu {
+  margin-top: 30px;
+  /* margin-left:10px;
+  border: solid black 0.2px; */
+
+  width: 400px;
+  border-radius: 5px;
+}
+
+.rolSpan {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.containerInput .inputRoles {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerInput .inputRoles input {
+  width: max-content;
+}
+
+.containerInput .inputRoles p {
+  margin: 0px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+}

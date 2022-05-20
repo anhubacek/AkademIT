@@ -1,0 +1,11 @@
+.button{
+    color:white;
+    background-color: red;
+    align-items: right;
+}
+.chatbotContainer{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    
+}
