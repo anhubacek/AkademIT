@@ -61,11 +61,6 @@ Despues de clonar el repositorio.
 ![home](/images/Home.jpeg)
 ![home](/images/podriagustarte.jpeg)
 
-
-- Detalle del curso
-
-![detalle del curso](/images/curso.jpeg)
-
 -Reseñas 
 ![hacer reseñas](/images/hacerreseña.jpeg)
 
